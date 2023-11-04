@@ -1,0 +1,279 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 1px;
+  box-shadow: 0 1px 3px -2px black;
+  color: white;
+  width: 100%;
+  height: 2cm;
+  align-items: center;
+
+}
+
+.navbar p {
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.nav-menu li Link{
+  color: #c9c9c9;
+}
+
+.nav-menu hr{
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #ff4141;
+}
+
+.HeroInvest{
+  display: flex;
+  flex-direction: column;
+
+}
+.background-container{
+  gap: 5px;
+  width: 80rem;
+  height: 80rem;
+  background: url(https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg);
+
+}
+
+.background-container h1{
+  font-size: 15px;
+  margin: 80px;
+  margin-top: 600px;
+  color: white;
+}
+
+.background-container p{
+  font-size: 50px;
+  margin: 80px;
+  margin-top: px;
+  color: white;
+}
+
+.How-we-see-it{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.vission-container{
+  margin: auto;
+}
+.How-we-see-it h2{
+  font-size: 40px;
+
+}
+.How-we-see-it p{
+ font-size: 30px;
+}
+
+
+.Stakeholder{
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+
+}
+
+.Stakeholder img{
+  max-height: max(70vh,500px);
+  max-width: 45vw;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+
+
+.stakeholder-container h3{
+  font-weight: 300;
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 0.35em;
+  margin-block-end: 0.35em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+
+.stakeholder-container p{
+  font-weight: 200;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.creative-hub{
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  
+}
+
+.creative-hub img{
+  max-height: max(70vh,500px);
+  max-width: 45vw;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.creative-hub h2{
+  font-weight: 300;
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 0.35em;
+  margin-block-end: 0.35em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.creative-hub p{
+  font-weight: 200;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.investing-elewa{
+  margin-left: auto;
+  display: flex;
+  gap: 70px;
+
+}
+
+.investing-elewa H2{
+  font-weight: 300;
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 0.35em;
+  margin-block-end: 0.35em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+}
+
+.investing-elewa p{
+  font-weight: 200;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.investing-elewa button{
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font: normal normal;
+    letter-spacing: 0px;
+    background-color: black;
+    color: #ecebeb;
+    font-size: 19px;
+    font-weight: 100;
+    border-color: black;
+    border-radius: 29px;
+    border: 2px solid #000000;
+    margin-top: 500px;
+    position: relative;
+    right: 480px;
+
+
+ }
+
+ .investing-elewa button:active{
+  background: white;
+ }
+
+ .closure{
+  margin: auto;
+  font-size: 50px;
+ }
+
+ .closure span{
+   margin-left: 90px;
+ }
+ .key-figures-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.key-figure {
+  border: 2px solid #000;
+  padding: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+ .key-figure{
+    margin: 10px; /* Add some spacing between the squares */
+    padding: 10px; /* Add padding inside the squares */
+    text-align: center; /* Center-align the text inside the squares */
+    background-color: #f0f0f0; /* Add a background color to the squares */
+  }
+  
+ 
+ 
+
+ 
+
+ .keyfigure-box[_ngcontent-ssn-c155] {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 5%;
+  border: 1px solid gray;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: gray;
+  border-right-color: gray;
+  border-bottom-color: gray;
+  border-left-color: gray;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  padding-top: 100px;
+  text-align: center;
+}
