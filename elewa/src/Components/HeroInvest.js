@@ -1,32 +1,43 @@
-import React from 'react'
-import KeyFigure from './KeyFigure'
+/**
+ * HeroInvest Component
+ *
+ * This component represents a section of a web page highlighting Elewa's mission
+ * and key figures.
+ *
+ * @component
+ */
+import React from 'react';
+import KeyFigure from './KeyFigure';
 
 const HeroInvest = () => {
   return (
     <div className='HeroInvest'>
+      {/* Background container with a title and subtitle */}
       <div className='background-container'>
-        <h1>Trade,not aid</h1>
+        <h1>Trade, not aid</h1>
         <p>Southern innovations addressing<br/> global problems</p>
       </div>
+
+      {/* Section: How we see it differently */}
       <div className='How-we-see-it'>
         <div className='vission-container'>
-        <h2>How we see it differently</h2>
-        <p>The global South is rapidly catching up with the "developed" world. It's <br/> time for you to get to know the rapid development, innovation and drive <br/> going on in this part of the world (East-Africa, South Asia and beyond).
-
-
-</p>
-</div>
-<img src='https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,w_1280/v1675690306/elewa-group-website/Images/Mask_Group_17_rjkgrq.png' alt='nairobi'/>
-
-
+          <h2>How we see it differently</h2>
+          <p>
+            The global South is rapidly catching up with the "developed" world. It's <br/> time for you to get to know the rapid development, innovation, and drive <br/> going on in this part of the world (East-Africa, South Asia, and beyond).
+          </p>
+        </div>
+        {/* Image of Nairobi */}
+        <img src='https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,w_1280/v1675690306/elewa-group-website/Images/Mask_Group_17_rjkgrq.png' alt='Nairobi' />
       </div>
 
+      {/* Section: Key Figures */}
       <div className="key-figures-container">
         <div className='key-figure'>
-        <KeyFigure title="Approx. number of Kenyan talents reaching the age of 18 in 2022" value="1.3M" />
+          {/* Display key figure for Kenyan talents */}
+          <KeyFigure title="Approx. number of Kenyan talents reaching the age of 18 in 2022" value="1.3M" />
         </div>
-
-          <div className='key-figure'>
+        {/* More key figures... (similar structure) */}
+        <div className='key-figure'>
         <KeyFigure title="Number of East-Africans (EAC) reaching the age of 18 in 2022" value="5M" />
         </div>
         <div className='key-figure'>
@@ -49,53 +60,55 @@ const HeroInvest = () => {
           </div>
       </div>
 
+      {/* Section: Stakeholder */}
       <div className='Stakeholder'>
+        {/* Image of a stakeholder */}
         <img src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690303/elewa-group-website/Images/IMG_6523_vabpyo.png' alt='stakeholder' />
 
-
         <div className='stakeholder-container'>
-        <h3>Elewa NV, a multi-<br/>stakeholder ,<br/>cooperation</h3>
-        <p>At the heart of Elewa lies the structure Elewa NV. <br/>Based in Brussels, Belgium, Elewa NV is a private<br/> holding company which controls the assets of all <br/>Elewa activities.<br/>
+          <h3>Elewa NV, a multi-<br/>stakeholder ,<br/>cooperation</h3>
+          <p>
+            At the heart of Elewa lies the structure Elewa NV. <br/>Based in Brussels, Belgium, Elewa NV is a private<br/> holding company that controls the assets of all <br/>Elewa activities.<br/>
 
-Elewa NV is owned and controlled by Elewa's <br/>founder, a small community of investors which <br/>share in the vision of Elewa and Elewa employees<br/> based throughout the activities of the group.</p>
-</div>
+            Elewa NV is owned and controlled by Elewa's <br/>founder, a small community of investors which <br/>share in the vision of Elewa and Elewa employees<br/> based throughout the activities of the group.
+          </p>
+        </div>
       </div>
 
+      {/* Section: Creative Hub */}
       <div className='creative-hub'>
         <div className='creative-container'>
-        <h2>The Elewa Creative<br/> Hub</h2>
-        <p>Coming soon; The Elewa Creative Hub Lies at the <br/>heart of our organization. A two-acre property at<br/> the center of Nairobi's creative district, the hub <br/>connects all Elewa's Activities under a single <br/>banner.
+          <h2>The Elewa Creative<br/> Hub</h2>
+          <p>
+            Coming soon; The Elewa Creative Hub Lies at the <br/>heart of our organization. A two-acre property at<br/> the center of Nairobi's creative district, the hub <br/>connects all Elewa's Activities under a single <br/>banner.
 
-Through partnerships with creative community, <br/>the Elewa Hub will organize vibrant activites that<br/> bring talents from different fields (tech, business,<br/> art, fashion) together to nurture continuous <br/>innovation.</p>
-</div>
-<img src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983012/elewa-group-website/Images/creative-hub-image_dd6o8o.jpg' alt='creative'/>
-
+            Through partnerships with the creative community, <br/>the Elewa Hub will organize vibrant activities that<br/> bring talents from different fields (tech, business,<br/> art, fashion) together to nurture continuous <br/>innovation.
+          </p>
+        </div>
+        {/* Image of the creative hub */}
+        <img src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983012/elewa-group-website/Images/creative-hub-image_dd6o8o.jpg' alt='creative'/>
       </div>
 
+      {/* Section: Investing in Elewa */}
       <div className='investing-elewa'>
+        {/* Image for investing */}
         <img src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983082/elewa-group-website/Images/invest-now_ftxg4z.jpg' alt='investing'/>
         <div className='invest-container'>
-        <h2>Investing in Elewa NV</h2>
-        <p>From time to time, we offer investment <br/>opportunities (private equity & debt) to out <br/>community of investors. Interested to take part <br/>when this opportunity arrives?</p>
+          <h2>Investing in Elewa NV</h2>
+          <p>
+            From time to time, we offer investment <br/>opportunities (private equity & debt) to our <br/>community of investors. Interested to take part <br/>when this opportunity arrives?
+          </p>
         </div>
-
-
+        {/* Button to join the waiting list */}
         <button>Join the waiting list</button>
-
-
-
       </div>
 
-
-
+      {/* Closing section */}
       <div className='closure'>
         <h2>Become part of our mission.<br/> <span>And start investing</span></h2>
-
       </div>
-
-
     </div>
   )
 }
 
-export default HeroInvest
+export default HeroInvest;
